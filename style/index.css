@@ -1,0 +1,22 @@
+
+p {
+    color: blueviolet;
+}
+h2 {
+    color: aliceblue;
+}
+.titulo{
+    font-style: Arial
+}
+.Decorativo{
+    width: 3%;
+    height: 500px;
+    background-color: blueviolet;
+
+}
+.resumo{
+    width: 35%;
+    height: 500px;
+    background-color: darkorchid;
+
+}
