@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Undertale.png/1280px-Undertale.png" type="png">
+</head>
+
+<body>
+    <header>
+        <h1>Undertale: Um Jogo Genial</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">História</a></li>
+                <li><a href="Personagens.html">Personagens</a></li>
+                <li><a href="Pesquisa sobre você.html">Pesquisa</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <form>
+
+        <p>Tô fazendo essa pesquisa pra saber como foi a tua experiência jogando Undertale. Cada pessoa joga de um
+            jeito, faz escolhas diferentes e vive uma história única, então quero muito ver como foi a tua. Se puder
+            responder, já ajuda demais!"</p>
+        <label>Seu nome:</label><br>
+        <input type="text" name="nome" required><br><br>
+
+
+        <label>Qual rota você fez?</label>
+        <br>
+        <select name="rota">
+            <option value="pacifista">Pacifista</option>
+            <option value="neutra">Neutra</option>
+            <option value="genocida">Genocida</option>
+        </select><br><br>
+
+
+        <label>Personagem favorito:</label>
+        <br>
+        <input type="text" name="personagem">
+        <br><br>
+
+
+        <label>Qual foi a dificuldade do jogo?</label>
+        <br>
+        <input type="radio" name="dificuldade" value="facil"> Fácil
+        <br>
+        <input type="radio" name="dificuldade" value="medio"> Médio
+        <br>
+        <input type="radio" name="dificuldade" value="dificil"> Difícil
+        <br><br>
+
+
+        <label>Qual chefe foi mais difícil?</label>
+        <br>
+        <input type="checkbox" name="chefe" value="sans"> Sans
+        <br>
+        <input type="checkbox" name="chefe" value="undyne"> Undyne
+        <br>
+        <input type="checkbox" name="chefe" value="asgore"> Asgore
+        <br>
+        <input type="checkbox" name="chefe" value="flowey"> Flowey
+        <br><br>
+
+
+        <label>Dê uma nota para o jogo (0 a 10):</label>
+        <br>
+        <input type="number" min="0" max="10" required>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        
+
+    </form>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <footer>
+        <p>© 2026 - Undertale e sua genialidade</p>
+    </footer>
+</body>
+
+</html>
